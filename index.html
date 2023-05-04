@@ -4,8 +4,114 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Portfolio Landing Page</title>
+	<!-- css -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 </head>
-<body>
+<body class="bg-dark text-light">
 
+<!-- navbar -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">LANDING PAGE</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Platform
+          </a>
+          <ul class="dropdown-menu" data-bs-theme="light">
+            <li><a class="dropdown-item" href="#"><img src="icons/service.svg" height="20" width="20" alt=""> Service Overview</a></li>
+            <li><a class="dropdown-item" href="#"><img src="icons/features.svg" height="20" width="20" alt=""> Features</a></li>
+            <li><a class="dropdown-item" href="#"><img src="icons/integration.svg" height="20" width="20" alt=""> Integration</a></li>
+            <li><a class="dropdown-item" href="#"><img src="icons/security.svg" height="20" width="20" alt=""> Security</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Products
+          </a>
+          <ul class="dropdown-menu" data-bs-theme="light">
+            <li><a class="dropdown-item" href="#"><img src="icons/product.svg" height="20" width="20" alt=""> Product</a></li>
+            <li><a class="dropdown-item" href="#"><img src="icons/product.svg" height="20" width="20" alt=""> Product</a></li>
+            <li><a class="dropdown-item" href="#"><img src="icons/product.svg" height="20" width="20" alt=""> Product</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#"><img src="icons/product.svg" height="20" width="20" alt=""> Other Product</a></li>
+            <li><a class="dropdown-item" href="#"><img src="icons/product.svg" height="20" width="20" alt=""> Other Product</a></li>
+            <li><a class="dropdown-item" href="#"><img src="icons/product.svg" height="20" width="20" alt=""> Other Product</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown" data-bs-theme="light">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Solutions
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#"><img src="icons/agencies.svg" height="20" width="20" alt=""> Agencies</a></li>
+            <li><a class="dropdown-item" href="#"><img src="icons/ecommerce.svg" height="20" width="20" alt=""> Ecommerce</a></li>
+            <li><a class="dropdown-item" href="#"><img src="icons/corporate.svg" height="20" width="20" alt=""> Corporations</a></li>
+            <li><a class="dropdown-item" href="#"><img src="icons/small-business.svg" height="20" width="20" alt=""> Small Business</a></li>
+          </ul>
+        </li>
+		<li class="nav-item dropdown" data-bs-theme="light">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Learn
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Pricing</a></li>
+            <li><a class="dropdown-item" href="#">Blog</a></li>
+            <li><a class="dropdown-item" href="#">Library</a></li>
+            <li><a class="dropdown-item" href="#">Contact</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-light" type="submit">Search</button>
+      </form>
+    </div>
+
+  </div>
+</nav>
+
+
+<div class="container-fluid text-center">
+	<!-- call to action -->
+	<div class="row mt-3 mb-3">
+		<div class="col">
+			<h1 class="font-monospace display-6">Stand out from the rest!</h1>
+		</div>
+	</div>
+
+	<!-- ebook download -->
+
+	<div class="row">
+		<div class="col">banner</div>
+		<div class="col">form</div>
+	</div>
+
+	<!-- early access -->
+
+	<div class="row bg-light text-dark mt-5 ms-5 me-5 p-5 rounded">
+		<div class="col mt-auto mb-auto"><img src="icons/early-access.svg" height="100%" width="100%" alt=""></div>
+		<div class="col-md-8">
+			<h4>For early access, sign up to our newsletter</h4>
+			<p class="text-body-secondary">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+		</div>	
+		<div class="col mt-auto mb-auto"><a href="#"><button type="button" class="btn btn-dark">Sign Up</button></a></div>
+	</div>
+
+	<!-- footer -->
+	<div class="row font-monospace mt-2 p-auto">
+		<div class="col"><p>&#169; 2023 Landing Page. All Rights Reserved | Privacy Policy | Terms of Service</p></div>
+	</div>
+
+</div>
+
+
+<!-- js -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>
